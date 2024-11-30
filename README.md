@@ -33,3 +33,19 @@
 - The player jumps to avoid the obstacles.
 - If successful, another obstacle spawns, increasing in speed or frequency.
 - If the player fails to avoid an obstacle, the training ends. The player can then choose to try again for a higher score or move on to the next training event.
+
+## Devlog
+### Running Training - Nov. 25, 2024
+I implemented the basics of the running training section. An obstacle spawns on the right side of the screen and rolls toward the player on the left. The player must press the up arrow key to jump over the obstacle. If successful, a new obstacle spawns on the right with a faster speed. The training continues until the player hits an obstacle.
+
+### Moving Clouds - Nov. 25, 2024
+In each training section, the player remains stationary while the objects on screen scroll left, creating the illusion that the player is moving forward. To enhance realism, I added clouds moving left to further emphasize the player's motion.
+
+### Flying Training - Nov. 26, 2024
+I implemented the basics of the flying training section. The player uses the up and down arrow keys to control the duck's movement in the air. A large rock spawns on the right side of the screen, either in the top or bottom half. The player must maneuver the duck to avoid the rock. If successful, a new rock spawns with a faster speed. The training continues until the player hits a rock or the water below.
+
+### Flying Training Ramp Animation - Nov. 27, 2024
+In the original game, the flying training begins with the duck sliding down a ramp and being launched into the air. I recreated this animation in Unity using rigid bodies and Unity's built-in physics. This took longer than expected due to the duck frequently rolling into the wrong position, but it now behaves as intended.
+
+### Starting and Game Over UIs - Nov. 27, 2024
+I added two UIs for each training section: the starting UI and the game over UI. The starting UI states the controls for the training section, and the player presses the space bar to begin. The game over UI appears when the player loses, based on the training section's loss condition. It then gives players the option to replay the section for a higher score or continue to the next training section.
