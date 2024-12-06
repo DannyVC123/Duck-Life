@@ -49,3 +49,11 @@ In the original game, the flying training begins with the duck sliding down a ra
 
 ### Starting and Game Over UIs - Nov. 27, 2024
 I added two UIs for each training section: the starting UI and the game over UI. The starting UI states the controls for the training section, and the player presses the space bar to begin. The game over UI appears when the player loses, based on the training section's loss condition. It then gives players the option to replay the section for a higher score or continue to the next training section.
+
+### Swimming Training - Dec. 05, 2024
+I implemented the basics of the swimming training section. The player uses the up arrow to jump and the down arrow to dive underwater. Various obstacles, such as sailboats, icebergs, and rock pillars, spawn on the right side of the screen and move toward the player. Since the obstacles are larger than the other two sections, the player can touch obstacles but loses if they are pushed offscreen. If the player successfully stays onscreen after the obstacle moves offscreen, a new obstacle spawns at a faster speed. The training continues until the player is pushed offscreen.
+
+
+
+
+
