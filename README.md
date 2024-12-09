@@ -71,5 +71,6 @@ I originally planned to implement a short race at the end of the three training 
 ## Gameplay Instructions
 There are three training sections: running, flying, and swimming. In each section, avoid obstacles and survive as long as possible to earn a higher score. If you hit an obstacle or go offscreen, you can either retry the section for a higher score or move on to the next one. The game concludes by displaying your scores from each training section.
 
-
+## Credits
+- Sprites: [The Spriter's Resource](https://www.spriters-resource.com/fullview/213845/), [Ludophiles: Duck Life - Longplay / Full Playthrough (no commentary)](https://www.youtube.com/watch?v=9YZx2a2B8yY&t=1522s)
 
