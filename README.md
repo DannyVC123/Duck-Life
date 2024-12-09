@@ -34,6 +34,18 @@
 - If successful, another obstacle spawns, increasing in speed or frequency.
 - If the player fails to avoid an obstacle, the training ends. The player can then choose to try again for a higher score or move on to the next training event.
 
+### Flying
+- Rocks spawn randomly in the top or bottom half of the screen and move toward the player.
+- The player flies up or down to avoid the rocks.
+- If successful, a new rock spawns with a faster speed.
+- If the player fails to avoid a rock, the training ends. The player can then choose to try again for a higher score or move on to the next training event.
+
+### Swimming
+- Obstacles spawn and move toward the player.
+- The player jumps over or dives down into the water to avoid the obstacles.
+- If successful, another obstacle spawns, with a faster speed.
+- If an obstacle pushes the player offscreen, the training ends. The player can then choose to try again for a higher score or move on to the next training event.
+
 ## Devlog
 ### Running Training - Nov. 25, 2024
 I implemented the basics of the running training section. An obstacle spawns on the right side of the screen and rolls toward the player on the left. The player must press the up arrow key to jump over the obstacle. If successful, a new obstacle spawns on the right with a faster speed. The training continues until the player hits an obstacle.
