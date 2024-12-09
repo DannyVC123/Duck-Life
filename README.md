@@ -65,6 +65,9 @@ I added two UIs for each training section: the starting UI and the game over UI.
 ### Swimming Training - Dec. 05, 2024
 I implemented the basics of the swimming training section. The player uses the up arrow to jump and the down arrow to dive underwater. Various obstacles, such as sailboats, icebergs, and rock pillars, spawn on the right side of the screen and move toward the player. Since the obstacles are larger than the other two sections, the player can touch obstacles but loses if they are pushed offscreen. If the player successfully stays onscreen after the obstacle moves offscreen, a new obstacle spawns at a faster speed. The training continues until the player is pushed offscreen.
 
+### Game Over Screen - Dec. 08, 2024
+I originally planned to implement a short race at the end of the three training sessions, where the player would compete against NPC ducks. The race would incorporate different sections that test the three skills—running, flying, and swimming—offering a fun and competitive payoff that showcases the results of their training. However, due to time constraints, I chose to create a simple game over screen instead which displays the player's score from each training session.
+
 
 
 
