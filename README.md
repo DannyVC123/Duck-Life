@@ -68,7 +68,8 @@ I implemented the basics of the swimming training section. The player uses the u
 ### Game Over Screen - Dec. 08, 2024
 I originally planned to implement a short race at the end of the three training sessions, where the player would compete against NPC ducks. The race would incorporate different sections that test the three skills—running, flying, and swimming—offering a fun and competitive payoff that showcases the results of their training. However, due to time constraints, I chose to create a simple game over screen instead which displays the player's score from each training session.
 
-
+## Gameplay Instructions
+There are three training sections: running, flying, and swimming. In each section, avoid obstacles and survive as long as possible to earn a higher score. If you hit an obstacle or go offscreen, you can either retry the section for a higher score or move on to the next one. The game concludes by displaying your scores from each training section.
 
 
 
